@@ -1,0 +1,6 @@
+num_disp = int(input("Informe o numero de dispositivos conectados a rede Wi-Fi: "))
+
+if num_disp > 10:
+    print("Tem muitos dispositivos conectados")
+else:
+    print("Quantidade boa")
