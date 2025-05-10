@@ -1,0 +1,8 @@
+names = []
+for i in range(5):
+  nome = input(f"Digite o {i+1}º nome de servidor: ")
+  names.append(nome)
+
+print("Servidores digitados: ")
+for nome in names:
+  print(nome)
