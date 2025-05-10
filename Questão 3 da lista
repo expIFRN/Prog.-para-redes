@@ -1,0 +1,10 @@
+ip = input("Informe o endereço IP do dispositivo: ")
+if "192.168.1." in ip:
+    numerosIP = ip.split(".")
+    numeroFinal = int(numerosIP[3])
+    if numeroFinal > 0 and numeroFinal < 256:
+        print("IP Válido")
+    else:
+        print("IP Invalido")
+else:
+        print("IP Invalido")
