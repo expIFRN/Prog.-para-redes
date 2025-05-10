@@ -1,0 +1,10 @@
+velo = int(input("Informe sua velocidade de internet em Mbps: "))
+
+if velo < 10:
+    print(velo, "? Troca ela po")
+
+elif velo >= 10 and velo < 100:
+    print("Velocidade boa")
+
+else:
+    print("Muito boa mesmo")
